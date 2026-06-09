@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    border-color: 1px solid #d1d5db;
+    font-family: 'Inter',sans-serif;
+    padding: 10px;
+    color: #222222;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+   align-items: stretch;
+    background-color: white ;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 1px solid black;
+    padding: 0px;
+    gap: 0px;
+    height: auto;
+}
+li{
+    list-style-position: inside  ;
+}
+.left{
+    background-color: navy;
+    padding: 30px;
+    margin-top: 0px;
+    height: 100%;
+    border-right: 2px solid black;
+    color: white;
+}    
+.right{
+    padding: 20px;
+    background-color: #ffffff;
+    padding:30px;
+}
+section{
+    margin-bottom: 10px;
+}
+.title{
+    margin-top: 0px;
+}
+.name{
+    margin-bottom: 0px;
+}
+.title p{
+    margin: 2px ;
+}
+h4{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: darkgoldenrod
+}
+p{
+    margin: 20px;
+}
+@media print{
+    .container{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media print{
+    .body{
+        margin: 0;
+    }
+    .container{
+        margin: 0;
+    }
+}
+h3{
+    font-size: 32px;
+    margin: 0px;
+    font-weight: 500;
+    color: #374151;
+}
+h5{
+    line-height: 1.2;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.projects{
+   margin-top: 0;
+}
+ul{
+    padding-left: 20px;
+}
+table{
+    width: 50%;
+    border-spacing: 0 5px;
+    margin-top: 0;
+    padding: 0;
+}
+td,th{
+    padding-right: 5px;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-right: 1px;
+}
+.left-content{
+    margin-top: 133px;
+}
+
+
+.lines{
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    display: inline-block;
+    width: 350px;
+    color: black;
+    margin: 0;
+}
+.resume{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.line{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1px;
+    display: inline-block;
+    width: 250px;
+    margin: 0;
+}
+.sum{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.education{
+    margin-top: 5px;
+}
